@@ -1,5 +1,4 @@
 ```
-cd python
 mkdir venv
 python -m venv .\venv\
 .\venv\Scripts\activate

@@ -7,7 +7,7 @@
             "request": "launch",
             "module": "functions.main",
             "env": {
-                "PYTHONPATH": "C:/dev/repo/school/python/"
+                "PYTHONPATH": "C:/dev/repo/school-python/"
             }
         }
     ]

@@ -1,4 +1,4 @@
-from python.functions.utils.time_func.custom_sleep import sleep
+from functions.utils.time_func.custom_sleep import sleep
 
 # only works with sorted lists
 

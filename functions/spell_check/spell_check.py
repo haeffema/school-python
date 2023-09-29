@@ -1,7 +1,7 @@
-from python.functions.utils.search_func.binary_search_words import binary_search_words
-from python.functions.utils.spell_check_func.unknown_storage import clear_unknown_storage, add_to_unknown_storage
-from python.functions.utils.spell_check_func.dictionary_getter import generate_dictionary
-from python.functions.utils.spell_check_func.text_getter import get_text
+from functions.utils.search_func.binary_search_words import binary_search_words
+from functions.utils.spell_check_func.unknown_storage import clear_unknown_storage, add_to_unknown_storage
+from functions.utils.spell_check_func.dictionary_getter import generate_dictionary
+from functions.utils.spell_check_func.text_getter import get_text
 
 delay_in_ms = 0 / 1000
 

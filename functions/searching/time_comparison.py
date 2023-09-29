@@ -1,7 +1,7 @@
 from statistics import mean
-from python.functions.utils.search_func.lineary_search import lineary_search
-from python.functions.utils.search_func.binary_search import binary_search
-from python.functions.utils.search_func.list_generator import generate_list
+from functions.utils.search_func.lineary_search import lineary_search
+from functions.utils.search_func.binary_search import binary_search
+from functions.utils.search_func.list_generator import generate_list
 from time import time as tm
 
 filename_list = ["ints_8.txt", "ints1k.txt", "ints2k.txt", "ints8k.txt",
