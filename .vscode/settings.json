@@ -1,0 +1,7 @@
+{
+    "[python]": {
+        "analysis.extraPaths": ["$C:/dev/repo/school/python/"],
+        "editor.defaultFormatter": "ms-python.autopep8"
+    },
+    "python.formatting.provider": "ms-python.autopep8"
+}
