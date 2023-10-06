@@ -1,4 +1,4 @@
-from functions.utils.search_func.binary_search_words import binary_search_words
+from functions.utils.search_func.binary_search import binary_search
 from functions.utils.spell_check_func.unknown_storage import clear_unknown_storage, add_to_unknown_storage
 from functions.utils.spell_check_func.dictionary_getter import generate_dictionary
 from functions.utils.spell_check_func.text_getter import get_text
@@ -13,5 +13,5 @@ def spell_check():
     dictionary = generate_dictionary()
 
     for word in text.split():
-        if not binary_search_words(dictionary, word, delay_in_ms):
+        if binary_search(dictionary, word, delay_in_ms) != word:
             add_to_unknown_storage(word)
