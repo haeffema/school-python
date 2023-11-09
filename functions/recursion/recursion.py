@@ -1,6 +1,6 @@
+from functions.utils.recursion_func.binary_search import binary_search
 from functions.utils.recursion_func.factorial import factorial
 from functions.utils.recursion_func.flip_string import flip_string
-from functions.utils.recursion_func.binary_search import binary_search
 
 
 def recursion():
