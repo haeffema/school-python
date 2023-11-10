@@ -19,4 +19,4 @@ def sort_with_given_algorithm(sorting_algorithm, length: int = 100, print_list: 
 
 def sort():
     length = 5
-    sort_with_given_algorithm(SelectionSort, length, False, True, 1)
+    sort_with_given_algorithm(SelectionSort, length, False, True)
