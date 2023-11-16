@@ -1,4 +1,5 @@
 from time import time
+from functions.utils.sort_func.InsertionSort import InsertionSort
 
 from functions.utils.sort_func.SelectionSort import SelectionSort
 from functions.utils.sort_func.list import ListHelper
@@ -19,4 +20,5 @@ def sort_with_given_algorithm(sorting_algorithm, length: int = 100, print_list: 
 
 def sort():
     length = 5
-    sort_with_given_algorithm(SelectionSort, length, False, True)
+    sort_with_given_algorithm(SelectionSort, length=length, print_list=False)
+    sort_with_given_algorithm(InsertionSort, length=length, print_list=False)
